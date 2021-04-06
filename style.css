@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-body{
+    width: 300px;
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 3px 3px 4px blue;
+}
+.profile{
+   max-width:700px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    width: 200px;
+    height: 200px;  
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.pic-last{
+    width: 160px;
+    height: 200px;  
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.kuasha{
+    color: blue;
+font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    margin:auto
+}
+.header{
+    max-width: 300px;
+    color: chocolate;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+h3{
+    color: crimson;
+    font-weight: bold;
+}
+h4{
+    color: darkblue;
+}
+.bio header{
+    color: red;
+    text-shadow: 2px 2px 4px royalblue;
+    font-weight: bolder;
+    font-size: large;
+}
+.kuasha:hover{
+    color: rgba(255, 0, 0, 0.788);
+    text-shadow: 2px 2px 3px blue;
+}
+.card-body:hover{
+    box-shadow: 5px 5px 5px red;
+}
+.number{
+    width: 20px;
+    color:rgb(25, 0, 255);
+    font-weight: bold;
+    padding-right: 40px;
+    font-size: large;
+    background-color:sandybrown;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 3px 3px 4px red;
+}
+.number:hover{
+    color: red;
+}
